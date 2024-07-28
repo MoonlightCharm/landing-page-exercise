@@ -64,6 +64,7 @@ li a {
 .hero-content h1 {
     font-size: 48px;
     font-weight: 900;
+    padding-top: 20px;
 }
 
 li a,
@@ -187,4 +188,17 @@ li a,
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+
+#footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p {
+    text-align: center;
+    color: white;
 }
