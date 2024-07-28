@@ -132,7 +132,7 @@ li a,
 }
 
 #testimonial-section {
-    height: 320px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,4 +155,36 @@ li a,
     font-size: 22px;
     font-weight: 600;
     text-align: end;
+}
+
+#cta-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    width: 60%;
+    height: 130px;
+    background: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.cta p {
+    font-weight: 300;
+}
+
+.cta button {
+    padding: 6px 30px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
